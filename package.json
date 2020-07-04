@@ -1,6 +1,6 @@
 {
   "name": "@pontte/commitlint-config",
-  "version": "0.0.1",
+  "version": "1.0.0-alpha.1",
   "description": "A extensible shared configuration to enforcing commit pattern using Commitlint.",
   "publishConfig": {
     "registry": "https://npm.pkg.github.com/"
