@@ -36,6 +36,7 @@
   },
   "peerDependencies": {
     "@commitlint/cli": "^9.0.1",
+    "@pontte/semantic-release-config": "^1.0.2",
     "@semantic-release/changelog": "^5.0.1",
     "@semantic-release/git": "^9.0.0",
     "commitizen": "^4.1.2",
@@ -44,6 +45,7 @@
     "semantic-release": "^17.1.1"
   },
   "optionalDependencies": {
+    "@pontte/semantic-release-config": "^1.0.2",
     "@semantic-release/changelog": "^5.0.1",
     "@semantic-release/git": "^9.0.0",
     "semantic-release": "^17.1.1"
