@@ -1,32 +1,29 @@
-# Stardust Front-End Template
+# Commitlint Config 🚨
 
-Stardust is the next generation of projects of the @pontte. It brings you a entire configuration to start a new project in a button click distance.
+A extensible shared configuration to enforcing commit pattern using [Commitlint](https://commitlint.js.org/).
 
-![](https://github.com/pontte/stardust/workflows/promote-prod-from-preprod-branch/badge.svg)
+![](https://github.com/pontte/commitlint-config/workflows/promote-prod-from-preprod-branch/badge.svg)
 
-## Getting Started
+## Install
 
-You **must change** some information in the `package.json`:
+### npm
 
-- `name`
-- `description`
-- `files`
-- `homepage`
-- `main`
-- `repository.url`
-- `bugs.url`
-- `homepage`
+```sh
+npm install @pontte/commitlint-config --save-dev
+```
 
-If your project will be a consumable one, don't forget to add distribution folder into `files` and specify `main` file.
+### yarn
 
-You **can change** but will be need to change Github Actions workflows:
+```sh
+yarn add @pontte/commitlint-config --dev
+```
 
-- `scripts.build`
-- `scripts.test-lint`
-- `scripts.test-unit`
+## Usage
 
-You **can't change**:
+Add package to your `.commitlint.js` or [commitlint](https://commitlint.js.org/#/guides-local-setup?id=install-commitlint) configuration file.
 
-- `version`
-
-Any other changes in `package.json` or Github Actions workflows **could break automation**. Be careful.
+```js
+module.exports = {
+  extends: ['@pontte/commitlint-config'],
+};
+```
