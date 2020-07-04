@@ -14,8 +14,9 @@
     "url": "https://github.com/pontte/commitlint-config/issues"
   },
   "homepage": "https://github.com/pontte/commitlint-config#readme",
-  "main": "",
+  "main": "dist/index.js",
   "files": [
+    "dist/*",
     "LICENSE",
     "CHANGELOG.md",
     "README.md"
