@@ -1,4 +1,4 @@
-# Commitlint Config 🚔🚨
+# Commitlint Config 🚨
 
 A extensible shared configuration to enforcing commit pattern using [Commitlint](https://commitlint.js.org/).
 
